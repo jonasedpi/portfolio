@@ -1,6 +1,8 @@
 {
+    "ab_me": "About Me",
     "ab_greeting": "Hi, my name is Jonas Eduardo Schumann Pinheiro. I'm studying to be a Full-Stack programmer.",
     "ab_college": "I'm studying Information Systems at Unisinos.",
     "ab_technologies": "I have knowledge of HTML, CSS, Java, JavaScript, React, Node.js, C#, Unity, SQL, Git, and GitHub.",
+    "ct_contact": "Contact",
     "pr_projects": "My Projects"
 }

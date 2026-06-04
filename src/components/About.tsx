@@ -12,7 +12,7 @@ const About = () => {
         <>
             <button onClick={() => changeLanguage("pt")}>🇧🇷 PT</button>
             <button onClick={() => changeLanguage("en")}>🇺🇸 EN</button>
-            <h2>About</h2>
+            <h2>{t("ab_me")}</h2>
             <p>{t("ab_greeting")}</p> 
             <p>{t("ab_college")}</p>
             <p>{t("ab_technologies")}</p>

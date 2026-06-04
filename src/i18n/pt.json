@@ -1,6 +1,8 @@
 {
-    "ab_greeting": "Oi, me chamo Jonas Eduardo Schumann Pinheiro. Estou estudando para ser programador Full-Stack.",
-    "ab_college": "Eu estou cursando Sistema de informação na Unisinos.",
-    "ab_technologies": "Tenho conhecimento em HTML, CSS, Java, JavaScript, React, Node.js, C#, Unity, SQL, Git e GitHub.",
-    "pr_projects": "My Projects"
+  "ab_me": "Sobre Mim",
+  "ab_greeting": "Oi, me chamo Jonas Eduardo Schumann Pinheiro. Estou estudando para ser programador Full-Stack.",
+  "ab_college": "Eu estou cursando Sistema de informação na Unisinos.",
+  "ab_technologies": "Tenho conhecimento em HTML, CSS, Java, JavaScript, React, Node.js, C#, Unity, SQL, Git e GitHub.",
+  "ct_contact": "Contato",
+  "pr_projects": "My Projects"
 }
