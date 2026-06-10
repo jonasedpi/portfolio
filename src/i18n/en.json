@@ -19,5 +19,6 @@
     }
   },
   "ser_services": "Services",
-  "inProgress": "In progress"
+  "inProgress": "In progress",
+  "ser_gameDev": "Game Development"
 }
