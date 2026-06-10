@@ -1,8 +1,23 @@
 {
-    "ab_me": "About Me",
-    "ab_greeting": "Hi, my name is Jonas Eduardo Schumann Pinheiro. I'm studying to be a Full-Stack programmer.",
-    "ab_college": "I'm studying Information Systems at Unisinos.",
-    "ab_technologies": "I have knowledge of HTML, CSS, Java, JavaScript, React, Node.js, C#, Unity, SQL, Git, and GitHub.",
-    "ct_contact": "Contact",
-    "pr_projects": "My Projects"
+  "ab_me": "About Me",
+  "ab_greeting": "Hi, my name is Jonas Eduardo Schumann Pinheiro. I'm studying to be a Full-Stack programmer.",
+  "ab_college": "I'm studying Information Systems at Unisinos.",
+  "ab_technologies": "I have knowledge of HTML, CSS, Java, JavaScript, React, Node.js, C#, Unity, SQL, Git, and GitHub.",
+  "ct_contact": "Contact",
+  "ct_email": "E-mail",
+  "ct_linkedin": "LinkedIn",
+  "ct_github": "Github",
+  "pr_projects": "My Projects",
+  "projects": {
+    "title": "My Projects",
+    "technologies": "Technologies",
+    "viewOnline": "View Online",
+    "repository": "Repository",
+    "portfolio": {
+      "title": "My Portfolio",
+      "description": "A personal website to showcase my projects, skills and experience."
+    }
+  },
+  "ser_services": "Services",
+  "inProgress": "In progress"
 }

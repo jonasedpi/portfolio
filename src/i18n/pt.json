@@ -4,5 +4,19 @@
   "ab_college": "Eu estou cursando Sistema de informação na Unisinos.",
   "ab_technologies": "Tenho conhecimento em HTML, CSS, Java, JavaScript, React, Node.js, C#, Unity, SQL, Git e GitHub.",
   "ct_contact": "Contato",
-  "pr_projects": "My Projects"
+  "ct_email": "E-mail",
+  "ct_linkedin": "LinkedIn",
+  "pr_projects": "Meus Projetos",
+    "projects": {
+    "title": "Meus Projetos",
+    "technologies": "Tecnologias",
+    "viewOnline": "Ver Online",
+    "repository": "Repositório",
+    "portfolio": {
+        "title": "Meu Portfólio",
+        "description": "Uma página pessoal para exibir meus projetos, habilidades e experiências."
+      }
+  } ,
+  "ser_services": "Serviços",
+  "inProgress": "Em desenvolvimento"
 }

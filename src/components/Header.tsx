@@ -1,13 +1,16 @@
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+    const { t } = useTranslation();
+
     return(
         <>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Service</li>
-                <li>Contact</li>
+                <li>{t("home")}</li>
+                <li>{t("ab_me")}</li>
+                <li>{t("pr_projects")}</li>
+                <li>{t("ser_services")}</li>
+                <li>{t("ct_contact")}</li>
             </ul>
         </>
     )
