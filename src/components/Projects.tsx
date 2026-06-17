@@ -20,10 +20,16 @@ const Projects: React.FC = () => {
       liveLink: "https://jonasedpi.vercel.app",
       repoLink: "https://github.com/jonasedpi/jonasedpi.github.io",
     },
+    {
+      title: t("projects.vr_unity.title"),
+      description: t("projects.vr_unity.description"),
+      techStack: ["Unity", "C#", "VR"],
+      repoLink: "https://github.com/jonasedpi/vr-unity",
+    }
   ];
 
   return (
-    <section className="projects bg-gray-100 py-10">
+    <section className="projects bg-gray-500 py-10 aspect-<3/2>">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">
           {t("projects.title")}
@@ -33,13 +39,13 @@ const Projects: React.FC = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg p-4 transition-transform hover:scale-105"
+              className=" shadow-md rounded-lg p-4 transition-transform hover:scale-105 bg-gray-700"
             >
               <h3 className="text-xl font-semibold mb-2">
                 {project.title}
               </h3>
 
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-300 mb-4">
                 {project.description}
               </p>
 

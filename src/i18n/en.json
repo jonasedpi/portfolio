@@ -21,5 +21,7 @@
   "ser_services": "Services",
   "inProgress": "In progress",
   "ser_gameDev": "Game Development",
+  "ser_webDev": "Web Development",
+  "ser_PixelArt": "Pixel Art",
   "home": "Home"
 }

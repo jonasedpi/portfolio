@@ -1,18 +1,14 @@
+
 import { useTranslation } from "react-i18next";
 
 const About = () => {
 
-    const { t, i18n } = useTranslation();
-    
-    const changeLanguage = (lang: string) => {
-        i18n.changeLanguage(lang);
-  };
+    const { t } = useTranslation();
 
     return(
-        <div className="about bg py-1">
-            <button onClick={() => changeLanguage("pt")}>🇧🇷 PT</button>
-            <button onClick={() => changeLanguage("en")}>🇺🇸 EN</button>
+        <div>
             <p>{t("ab_me")}</p>
+            <img src="../assets/images/perfil.jpg" alt="Profile Picture"  />
             <p>{t("ab_greeting")}</p> 
             <p>{t("ab_college")}</p>
             <p>{t("ab_technologies")}</p>
