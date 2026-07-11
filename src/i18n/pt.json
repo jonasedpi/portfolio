@@ -15,6 +15,10 @@
     "portfolio": {
         "title": "Meu Portfólio",
         "description": "Uma página pessoal para exibir meus projetos, habilidades e experiências."
+      },
+      "vr_unity": {
+        "title": "Tekohá",
+        "description": "esse é um projeto de iniciação cientifica que participei como bolsista" 
       }
   } ,
   "ser_services": "Serviços",

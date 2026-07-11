@@ -16,6 +16,10 @@
     "portfolio": {
       "title": "My Portfolio",
       "description": "A personal website to showcase my projects, skills and experience."
+    },
+    "vr_unity": {
+      "title": "Tehoka",
+      "description": "this a project to IC"
     }
   },
   "ser_services": "Services",
