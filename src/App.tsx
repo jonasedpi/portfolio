@@ -19,7 +19,6 @@ const App: React.FC= () => {
             <Projects />
             <Service/>
             <Contact />
-            <Footer />
         </>
     );
 };
