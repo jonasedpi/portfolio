@@ -22,16 +22,12 @@ const Contact = () => {
   ];
 
   return (
-    <section
-      id="contact"
-      className="py-20 px-6 bg-zinc-900 text-white"
-    >
+    <section id="contact" className="py-20 px-6 bg-zinc-900 text-white">
       <h2 className="font-pixel text-3xl text-center text-blue-300 mb-12">
         {t("ct_contact")}
       </h2>
 
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-
         {contacts.map((contact) => (
           <a
             key={contact.title}
@@ -51,9 +47,7 @@ const Contact = () => {
               duration-200
             "
           >
-            <div className="text-5xl text-center mb-6">
-              {contact.icon}
-            </div>
+            <div className="text-5xl text-center mb-6">{contact.icon}</div>
 
             <h3 className="font-pixel text-lg text-center text-blue-300 mb-4">
               {contact.title}
@@ -64,7 +58,6 @@ const Contact = () => {
             </p>
           </a>
         ))}
-
       </div>
 
       <div className="mt-16 text-center text-zinc-500 text-sm">
