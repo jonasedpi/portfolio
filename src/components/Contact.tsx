@@ -22,7 +22,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 px-6 bg-zinc-900 text-white">
+    <section id="contact" className="py-20 px-6 bg-zinc-950 text-white">
       <h2 className="font-pixel text-3xl text-center text-blue-300 mb-12">
         {t("ct_contact")}
       </h2>

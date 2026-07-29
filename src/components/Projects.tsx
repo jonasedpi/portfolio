@@ -25,51 +25,100 @@ const Projects: React.FC = () => {
       description: t("projects.vr_unity.description"),
       techStack: ["Unity", "C#", "VR"],
       repoLink: "https://github.com/jonasedpi/vr-unity",
-    }
+    },
   ];
 
   return (
-    <section id="projects" className="projects bg-gray-500 py-10 aspect-<3/2>">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">
+    <section
+      id="projects"
+      className="py-20 px-6 bg-zinc-800 text-white"
+    >
+      <div className="max-w-7xl mx-auto">
+
+        <h2 className="font-pixel text-3xl text-center text-blue-300 mb-12">
           {t("projects.title")}
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+
           {projects.map((project, index) => (
             <div
               key={index}
-              className=" shadow-md rounded-lg p-4 transition-transform hover:scale-105 bg-gray-700"
+              className="
+                bg-zinc-800
+                border-4
+                border-blue-300
+                p-6
+                shadow-[8px_8px_0px_#000]
+                hover:-translate-y-2
+                hover:shadow-[12px_12px_0px_#000]
+                transition-all
+                duration-200
+              "
             >
-              <h3 className="text-xl font-semibold mb-2">
-                {project.title}
-              </h3>
+              {/* Cabeçalho */}
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-3xl">🎮</span>
 
-              <p className="text-gray-300 mb-4">
+                <h3 className="font-pixel text-lg text-blue-300">
+                  {project.title}
+                </h3>
+              </div>
+
+              {/* Descrição */}
+              <p className="text-zinc-300 mb-6">
                 {project.description}
               </p>
 
-              <div className="mb-4">
-                <h4 className="font-semibold">
-                  {t("projects.technologies")}:
+              {/* Tecnologias */}
+              <div className="mb-6">
+
+                <h4 className="font-semibold text-blue-300 mb-3">
+                  {t("projects.technologies")}
                 </h4>
 
-                <ul className="list-disc list-inside">
+                <div className="flex flex-wrap gap-2">
+
                   {project.techStack.map((tech, i) => (
-                    <li key={i}>{tech}</li>
+                    <span
+                      key={i}
+                      className="
+                        border-2
+                        border-blue-300
+                        px-3
+                        py-1
+                        text-sm
+                        bg-zinc-900
+                      "
+                    >
+                      {tech}
+                    </span>
                   ))}
-                </ul>
+
+                </div>
+
               </div>
 
-              <div className="flex justify-between">
+              {/* Botões */}
+              <div className="flex gap-3 mt-auto">
+
                 {project.liveLink && (
                   <a
                     href={project.liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-500 hover:underline"
+                    className="
+                      flex-1
+                      text-center
+                      border-2
+                      border-blue-300
+                      py-2
+                      hover:bg-blue-300
+                      hover:text-black
+                      transition
+                    "
                   >
-                    {t("projects.viewOnline")}
+                    🌐 {t("projects.viewOnline")}
                   </a>
                 )}
 
@@ -77,14 +126,27 @@ const Projects: React.FC = () => {
                   href={project.repoLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 hover:underline"
+                  className="
+                    flex-1
+                    text-center
+                    border-2
+                    border-blue-300
+                    py-2
+                    hover:bg-blue-300
+                    hover:text-black
+                    transition
+                  "
                 >
-                  {t("projects.repository")}
+                  💻 {t("projects.repository")}
                 </a>
+
               </div>
+
             </div>
           ))}
+
         </div>
+
       </div>
     </section>
   );
