@@ -5,28 +5,28 @@ const Service = () => {
 
   const services = [
     {
-      title: t("ser_lanPage"),
-      description: t("inProgress"),
-      icon: "/icons/landing-page.png",
-      image: "/images/landing-example.png",
-    },
-    {
       title: t("ser_webDev"),
-      description: t("inProgress"),
+      description: t("ser_webDev_desc"),
       icon: "/icons/web.png",
       image: "/images/web-example.png",
     },
     {
-      title: t("ser_PixelArt"),
-      description: t("inProgress"),
-      icon: "/icons/pixel-art.png",
-      image: "/images/pixel-example.png",
+      title: t("ser_lanPage"),
+      description: t("ser_lanPage_desc"),
+      icon: "/icons/landing-page.png",
+      image: "/images/landing-example.png",
     },
     {
       title: t("ser_gameDev"),
-      description: t("inProgress"),
+      description: t("ser_gameDev_desc"),
       icon: "/icons/game.png",
       image: "/images/game-example.png",
+    },
+    {
+      title: t("ser_PixelArt"),
+      description: t("ser_PixelArt_desc"),
+      icon: "/icons/pixel-art.png",
+      image: "/images/pixel-example.png",
     },
   ];
 

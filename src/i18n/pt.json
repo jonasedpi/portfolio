@@ -1,8 +1,8 @@
 {
   "ab_me": "Sobre Mim",
-  "ab_greeting": "Oi, me chamo Jonas Eduardo Schumann Pinheiro. Estou estudando para ser programador Full-Stack.",
-  "ab_college": "Eu estou cursando Sistema de informação na Unisinos.",
-  "ab_technologies": "Tenho conhecimento em HTML, CSS, Java, JavaScript, React, Node.js, C#, Unity, SQL, Git e GitHub.",
+  "ab_greeting": "Oi, sou o Jonas Eduardo Schumann Pinheiro, desenvolvedor Full-Stack. Construo sites e sistemas web com React, Node.js e TypeScript.",
+  "ab_college": "Também atuo com Unity, VR e modelagem 3D através de um projeto de iniciação científica na Unisinos, onde curso Sistemas de Informação.",
+  "ab_technologies": "Trabalho principalmente com HTML, CSS, JavaScript, TypeScript, React e Node.js — e também com C#, Unity, SQL, Git e GitHub.",
   "ct_contact": "Contato",
   "ct_email": "E-mail",
   "ct_linkedin": "LinkedIn",
@@ -14,11 +14,11 @@
     "repository": "Repositório",
     "portfolio": {
         "title": "Meu Portfólio",
-        "description": "Uma página pessoal para exibir meus projetos, habilidades e experiências."
+        "description": "Site pessoal desenvolvido para apresentar meus projetos, habilidades e experiências como desenvolvedor."
       },
       "vr_unity": {
         "title": "Tekohá",
-        "description": "esse é um projeto de iniciação cientifica que participei como bolsista" 
+        "description": "Projeto de iniciação científica em Unity e VR, desenvolvido como bolsista na Unisinos."
       }
   } ,
   "ser_services": "Serviços",
@@ -27,6 +27,10 @@
   "ser_webDev": "Desenvolvimento Web",
   "ser_PixelArt": "Pixel Art",
   "ser_lanPage": "Landing Page",
+  "ser_lanPage_desc": "Páginas rápidas, responsivas e pensadas para converter visitantes em clientes.",
+  "ser_webDev_desc": "Sites e sistemas web sob medida, do front-end ao back-end.",
+  "ser_PixelArt_desc": "Arte em pixel art para jogos e projetos criativos, com estilo retrô autêntico.",
+  "ser_gameDev_desc": "Desenvolvimento de jogos e experiências em Unity e VR.",
   "ser_viewMore": "Ver Mais",
   "cont_click": "Clique Aqui para acessar",
    "home": "Home"

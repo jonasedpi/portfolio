@@ -1,8 +1,8 @@
 {
   "ab_me": "About Me",
-  "ab_greeting": "Hi, my name is Jonas Eduardo Schumann Pinheiro. I'm studying to be a Full-Stack programmer.",
-  "ab_college": "I'm studying Information Systems at Unisinos.",
-  "ab_technologies": "I have knowledge of HTML, CSS, Java, JavaScript, React, Node.js, C#, Unity, SQL, Git, and GitHub.",
+  "ab_greeting": "Hi, I'm Jonas Eduardo Schumann Pinheiro, a Full-Stack developer. I build websites and web systems with React, Node.js and TypeScript.",
+  "ab_college": "I also work with Unity, VR and 3D modeling through a scientific research project at Unisinos, where I study Information Systems.",
+  "ab_technologies": "I mainly work with HTML, CSS, JavaScript, TypeScript, React and Node.js — as well as C#, Unity, SQL, Git and GitHub.",
   "ct_contact": "Contact",
   "ct_email": "E-mail",
   "ct_linkedin": "LinkedIn",
@@ -15,11 +15,11 @@
     "repository": "Repository",
     "portfolio": {
       "title": "My Portfolio",
-      "description": "A personal website to showcase my projects, skills and experience."
+      "description": "Personal website built to showcase my projects, skills and experience as a developer."
     },
     "vr_unity": {
-      "title": "Tehoka",
-      "description": "This is a scientific initiation project I participated in as a scholarship recipient."
+      "title": "Tekohá",
+      "description": "Scientific research project in Unity and VR, developed as a scholarship recipient at Unisinos."
     }
   },
   "ser_services": "Services",
@@ -28,6 +28,10 @@
   "ser_webDev": "Web Development",
   "ser_PixelArt": "Pixel Art",
   "ser_lanPage": "Landing Page",
+  "ser_lanPage_desc": "Fast, responsive pages built to turn visitors into customers.",
+  "ser_webDev_desc": "Custom websites and web systems, from front-end to back-end.",
+  "ser_PixelArt_desc": "Pixel art for games and creative projects, with an authentic retro style.",
+  "ser_gameDev_desc": "Game development and experiences built with Unity and VR.",
   "ser_viewMore": "View More",
   "cont_click": "Click Here to Access",
   "home": "Home"

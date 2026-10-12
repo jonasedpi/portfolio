@@ -7,6 +7,7 @@ type Project = {
   techStack: string[];
   liveLink?: string;
   repoLink: string;
+  icon: string;
 };
 
 const Projects: React.FC = () => {
@@ -19,12 +20,14 @@ const Projects: React.FC = () => {
       techStack: ["React", "TypeScript", "Tailwind CSS"],
       liveLink: "https://jonasedpi.vercel.app",
       repoLink: "https://github.com/jonasedpi/jonasedpi.github.io",
+      icon: "💻",
     },
     {
       title: t("projects.vr_unity.title"),
       description: t("projects.vr_unity.description"),
       techStack: ["Unity", "C#", "VR"],
       repoLink: "https://github.com/jonasedpi/vr-unity",
+      icon: "🎮",
     },
   ];
 
@@ -58,7 +61,7 @@ const Projects: React.FC = () => {
             >
               {/* Cabeçalho */}
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-3xl">🎮</span>
+                <span className="text-3xl">{project.icon}</span>
 
                 <h3 className="font-pixel text-lg text-blue-300">
                   {project.title}

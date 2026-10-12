@@ -57,17 +57,6 @@ const About = () => {
 
             <div>
               <div className="flex justify-between text-sm mb-1">
-                <span>Unity</span>
-                <span>90%</span>
-              </div>
-
-              <div className="w-full bg-zinc-700 h-4 border-2 border-white">
-                <div className="bg-green-500 h-full w-[90%]"></div>
-              </div>
-            </div>
-
-            <div>
-              <div className="flex justify-between text-sm mb-1">
                 <span>React</span>
                 <span>85%</span>
               </div>
@@ -79,23 +68,34 @@ const About = () => {
 
             <div>
               <div className="flex justify-between text-sm mb-1">
-                <span>C#</span>
-                <span>90%</span>
-              </div>
-
-              <div className="w-full bg-zinc-700 h-4 border-2 border-white">
-                <div className="bg-purple-500 h-full w-[90%]"></div>
-              </div>
-            </div>
-
-            <div>
-              <div className="flex justify-between text-sm mb-1">
                 <span>TypeScript</span>
                 <span>80%</span>
               </div>
 
               <div className="w-full bg-zinc-700 h-4 border-2 border-white">
                 <div className="bg-cyan-400 h-full w-[80%]"></div>
+              </div>
+            </div>
+
+            <div>
+              <div className="flex justify-between text-sm mb-1">
+                <span>Unity</span>
+                <span>90%</span>
+              </div>
+
+              <div className="w-full bg-zinc-700 h-4 border-2 border-white">
+                <div className="bg-green-500 h-full w-[90%]"></div>
+              </div>
+            </div>
+
+            <div>
+              <div className="flex justify-between text-sm mb-1">
+                <span>C#</span>
+                <span>90%</span>
+              </div>
+
+              <div className="w-full bg-zinc-700 h-4 border-2 border-white">
+                <div className="bg-purple-500 h-full w-[90%]"></div>
               </div>
             </div>
 
