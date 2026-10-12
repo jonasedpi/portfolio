@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   const menu = [
-    { icon: "🏠", label: t("home"), href: "#home" },
+    { icon: "🏠", label: t("home"), href: "#" },
     { icon: "👤", label: t("ab_me"), href: "#about" },
     { icon: "💻", label: t("pr_projects"), href: "#projects" },
     { icon: "⚒️", label: t("ser_services"), href: "#services" },
@@ -24,17 +24,17 @@ const Header = () => {
 
         {/* Logo */}
         <div>
-          <h1 className="font-pixel text-blue-300 text-sm">
+          <h1 className="font-pixel text-blue-300 text-xl">
             JONAS.exe
           </h1>
 
           <p className="text-[10px] text-zinc-400">
-            Unity Developer
+            Full-Stack &amp; Unity Developer
           </p>
         </div>
 
         {/* Menu Desktop */}
-        <nav className="hidden md:block">
+        <nav className="hidden xl:block">
           <ul className="flex items-center gap-3">
 
             {menu.map((item) => (
@@ -44,10 +44,12 @@ const Header = () => {
                   className="
                     group
                     relative
+                    whitespace-nowrap
+                    text-xs
                     flex
                     items-center
                     gap-2
-                    px-4
+                    px-3
                     py-2
                     border-2
                     border-transparent
@@ -82,7 +84,7 @@ const Header = () => {
         </nav>
 
         {/* Idiomas Desktop */}
-        <div className="hidden md:flex gap-2">
+        <div className="hidden xl:flex gap-2">
 
           <button
             onClick={() => changeLanguage("pt")}
@@ -102,7 +104,7 @@ const Header = () => {
 
         {/* Botão Mobile */}
         <button
-          className="md:hidden text-blue-300 text-3xl"
+          className="xl:hidden text-blue-300 text-3xl"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? "✕" : "☰"}
@@ -112,7 +114,7 @@ const Header = () => {
 
       {/* Menu Mobile */}
       {menuOpen && (
-        <div className="md:hidden bg-zinc-900 border-t-4 border-blue-300">
+        <div className="xl:hidden bg-zinc-900 border-t-4 border-blue-300">
 
           {menu.map((item) => (
             <a

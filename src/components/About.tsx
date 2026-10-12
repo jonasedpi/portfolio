@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import perfil from "../assets/images/perfil.png";
+import perfil from "../assets/images/perfil.jpg";
 
 const About = () => {
   const { t } = useTranslation();
@@ -16,6 +16,8 @@ const About = () => {
         <div className="flex justify-center">
           <div
             className="
+              w-full
+              max-w-md
               bg-zinc-800
               border-4 border-blue-300
               p-3
@@ -26,8 +28,8 @@ const About = () => {
               src={perfil}
               alt="Perfil"
               className="
-                w-118
-                h-118
+                w-full
+                aspect-square
                 object-cover
                 border-4 border-white
               "

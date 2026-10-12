@@ -7,20 +7,20 @@
   "ct_email": "E-mail",
   "ct_linkedin": "LinkedIn",
   "pr_projects": "Meus Projetos",
-    "projects": {
+  "projects": {
     "title": "Meus Projetos",
     "technologies": "Tecnologias",
     "viewOnline": "Ver Online",
     "repository": "Repositório",
     "portfolio": {
-        "title": "Meu Portfólio",
-        "description": "Site pessoal desenvolvido para apresentar meus projetos, habilidades e experiências como desenvolvedor."
-      },
-      "vr_unity": {
-        "title": "Tekohá",
-        "description": "Projeto de iniciação científica em Unity e VR, desenvolvido como bolsista na Unisinos."
-      }
-  } ,
+      "title": "Meu Portfólio",
+      "description": "Site pessoal desenvolvido para apresentar meus projetos, habilidades e experiências como desenvolvedor."
+    },
+    "vr_unity": {
+      "title": "Tekohá",
+      "description": "Projeto de iniciação científica em Unity e VR, desenvolvido como bolsista na Unisinos."
+    }
+  },
   "ser_services": "Serviços",
   "inProgress": "Em desenvolvimento",
   "ser_gameDev": "Desenvolvimento de Jogos",
@@ -33,5 +33,7 @@
   "ser_gameDev_desc": "Desenvolvimento de jogos e experiências em Unity e VR.",
   "ser_viewMore": "Ver Mais",
   "cont_click": "Clique Aqui para acessar",
-   "home": "Home"
+  "home": "Home",
+  "ct_github": "Github",
+  "ser_quote": "Pedir orçamento"
 }

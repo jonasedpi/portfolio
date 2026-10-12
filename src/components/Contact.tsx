@@ -8,16 +8,19 @@ const Contact = () => {
       icon: "📧",
       title: t("ct_email"),
       link: "mailto:jonasespinheiro@gmail.com",
+      label: "jonasespinheiro@gmail.com",
     },
     {
       icon: "💻",
       title: t("ct_github"),
       link: "https://github.com/jonasedpi",
+      label: "github.com/jonasedpi",
     },
     {
       icon: "💼",
       title: t("ct_linkedin"),
       link: "https://www.linkedin.com/in/jonas-eduardo-schumann-pinheiro/",
+      label: "in/jonas-eduardo-schumann-pinheiro",
     },
   ];
 
@@ -49,12 +52,12 @@ const Contact = () => {
           >
             <div className="text-5xl text-center mb-6">{contact.icon}</div>
 
-            <h3 className="font-pixel text-lg text-center text-blue-300 mb-4">
+            <h3 className="font-pixel text-base text-center text-blue-300 mb-4">
               {contact.title}
             </h3>
 
-            <p className="text-center text-zinc-300 group-hover:text-white">
-              {t("cont_click")}
+            <p className="text-center text-zinc-300 group-hover:text-white text-[10px] leading-relaxed break-all">
+              {contact.label}
             </p>
           </a>
         ))}

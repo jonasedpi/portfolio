@@ -42,12 +42,14 @@ const Projects: React.FC = () => {
           {t("projects.title")}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
 
           {projects.map((project, index) => (
             <div
               key={index}
               className="
+                flex
+                flex-col
                 bg-zinc-800
                 border-4
                 border-blue-300
@@ -63,13 +65,13 @@ const Projects: React.FC = () => {
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-3xl">{project.icon}</span>
 
-                <h3 className="font-pixel text-lg text-blue-300">
+                <h3 className="font-pixel text-base text-blue-300">
                   {project.title}
                 </h3>
               </div>
 
               {/* Descrição */}
-              <p className="text-zinc-300 mb-6">
+              <p className="text-zinc-300 text-sm leading-relaxed mb-6">
                 {project.description}
               </p>
 
@@ -112,6 +114,7 @@ const Projects: React.FC = () => {
                     rel="noopener noreferrer"
                     className="
                       flex-1
+                      text-xs
                       text-center
                       border-2
                       border-blue-300
@@ -131,6 +134,7 @@ const Projects: React.FC = () => {
                   rel="noopener noreferrer"
                   className="
                     flex-1
+                    text-xs
                     text-center
                     border-2
                     border-blue-300

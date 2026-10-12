@@ -3,30 +3,27 @@ import { useTranslation } from "react-i18next";
 const Service = () => {
   const { t } = useTranslation();
 
+  // Emojis por enquanto. Quando tiver ícones/prints de verdade, adicione um campo `image`.
   const services = [
     {
       title: t("ser_webDev"),
       description: t("ser_webDev_desc"),
-      icon: "/icons/web.png",
-      image: "/images/web-example.png",
+      icon: "🌐",
     },
     {
       title: t("ser_lanPage"),
       description: t("ser_lanPage_desc"),
-      icon: "/icons/landing-page.png",
-      image: "/images/landing-example.png",
+      icon: "📄",
     },
     {
       title: t("ser_gameDev"),
       description: t("ser_gameDev_desc"),
-      icon: "/icons/game.png",
-      image: "/images/game-example.png",
+      icon: "🎮",
     },
     {
       title: t("ser_PixelArt"),
       description: t("ser_PixelArt_desc"),
-      icon: "/icons/pixel-art.png",
-      image: "/images/pixel-example.png",
+      icon: "🎨",
     },
   ];
 
@@ -36,15 +33,16 @@ const Service = () => {
         {t("ser_services")}
       </h2>
 
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        {services.map((service, index) => (
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8">
+        {services.map((service) => (
           <div
-            key={index}
+            key={service.title}
             className="
+              flex
+              flex-col
               bg-zinc-800
               border-4
               border-blue-400
-              rounded-none
               shadow-[8px_8px_0px_#000]
               p-6
               hover:-translate-y-2
@@ -53,32 +51,27 @@ const Service = () => {
               duration-200
             "
           >
-            <img src={service.icon} alt="" className="w-16 h-16 mx-auto mb-4 pixelated" />
+            <div className="text-5xl text-center mb-4" aria-hidden="true">
+              {service.icon}
+            </div>
 
-            {service.image && (
-            <img src={service.image} alt={service.title} className="w-full mt-6 border-4 border-white pixelated" />
-            )}
-
-            <h3 className="text-xl font-bold text-center text-white">
+            <h3 className="text-sm font-bold text-center text-white break-words">
               {service.title}
             </h3>
 
-            <p className="text-gray-300 text-center mt-3">
+            <p className="text-xs leading-relaxed text-gray-300 text-center mt-4">
               {service.description}
             </p>
 
-            <img
-              src={service.image}
-              alt={service.title}
-              className="w-full mt-6 border-4 border-white pixelated"
-            />
-
-            <button
+            <a
+              href="#contact"
               className="
-                w-full
-                mt-6
+                mt-auto
+                block
+                text-center
                 bg-yellow-300
                 text-black
+                text-xs
                 font-bold
                 py-3
                 border-4
@@ -90,8 +83,8 @@ const Service = () => {
                 transition-all
               "
             >
-              {t("ser_viewMore")}
-            </button>
+              {t("ser_quote")}
+            </a>
           </div>
         ))}
       </div>
