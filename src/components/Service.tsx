@@ -53,11 +53,11 @@ const Service = () => {
               duration-200
             "
           >
-            <img
-              src={service.icon}
-              alt={service.title}
-              className="w-16 h-16 mx-auto mb-4 pixelated"
-            />
+            <img src={service.icon} alt="" className="w-16 h-16 mx-auto mb-4 pixelated" />
+
+            {service.image && (
+            <img src={service.image} alt={service.title} className="w-full mt-6 border-4 border-white pixelated" />
+            )}
 
             <h3 className="text-xl font-bold text-center text-white">
               {service.title}
