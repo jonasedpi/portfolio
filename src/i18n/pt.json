@@ -36,5 +36,24 @@
   "cont_click": "Clique Aqui para acessar",
   "home": "Home",
   "ct_github": "Github",
-  "ser_quote": "Pedir orçamento"
+  "ser_quote": "Pedir orçamento",
+  "skills": {
+    "title": "Inventário de Habilidades",
+    "hint": "Passe o mouse ou toque em um item para ver os detalhes.",
+    "lv": "Nv. {{n}}",
+    "usedIn": "Usado em",
+    "noProject": "Ainda sem projeto publicado. Em treino.",
+    "cat": {
+      "games": "Games",
+      "frontend": "Front-end",
+      "backend": "Back-end",
+      "tools": "Ferramentas"
+    },
+    "level": {
+      "1": "Aprendiz",
+      "2": "Praticante",
+      "3": "Avançado",
+      "4": "Mestre"
+    }
+  }
 }

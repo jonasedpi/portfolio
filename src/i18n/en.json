@@ -36,5 +36,24 @@
   "ser_viewMore": "View More",
   "cont_click": "Click Here to Access",
   "home": "Home",
-  "ser_quote": "Request a quote"
+  "ser_quote": "Request a quote",
+  "skills": {
+    "title": "Skill Inventory",
+    "hint": "Hover or tap an item to see its details.",
+    "lv": "Lv. {{n}}",
+    "usedIn": "Used in",
+    "noProject": "No published project yet. In training.",
+    "cat": {
+      "games": "Games",
+      "frontend": "Front-end",
+      "backend": "Back-end",
+      "tools": "Tools"
+    },
+    "level": {
+      "1": "Apprentice",
+      "2": "Practitioner",
+      "3": "Advanced",
+      "4": "Master"
+    }
+  }
 }
