@@ -19,8 +19,9 @@
     },
     "vr_unity": {
       "title": "Tekohá",
-      "description": "Scientific research project in Unity and VR, developed as a scholarship recipient at Unisinos."
-    }
+      "description": "Unity VR environment for Meta Quest that recreates the São Miguel Arcanjo Mission to teach history to children. Undergraduate research project at Unisinos, published in the Journal on Interactive Systems. My part: custom virtual hands replacing the controller model, lighting fixes, 3D model adjustments and merging team branches with Git."
+    },
+    "paper": "Paper"
   },
   "ser_services": "Services",
   "inProgress": "In progress",

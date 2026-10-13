@@ -18,8 +18,9 @@
     },
     "vr_unity": {
       "title": "Tekohá",
-      "description": "Projeto de iniciação científica em Unity e VR, desenvolvido como bolsista na Unisinos."
-    }
+      "description": "Ambiente de VR em Unity (Meta Quest) que recria a Missão de São Miguel Arcanjo para ensinar história a crianças. Projeto de iniciação científica na Unisinos, publicado no Journal on Interactive Systems. Minha parte: mãos virtuais personalizadas no lugar do modelo do controle, correção de problemas de iluminação, ajustes em modelos 3D e merge de branches da equipe com Git."
+    },
+    "paper": "Artigo"
   },
   "ser_services": "Serviços",
   "inProgress": "Em desenvolvimento",

@@ -7,6 +7,7 @@ type Project = {
   techStack: string[];
   liveLink?: string;
   repoLink: string;
+  paperLink?: string;
   icon: string;
 };
 
@@ -25,8 +26,9 @@ const Projects: React.FC = () => {
     {
       title: t("projects.vr_unity.title"),
       description: t("projects.vr_unity.description"),
-      techStack: ["Unity", "C#", "VR"],
+      techStack: ["Unity", "C#", "VR", "Meta Quest", "Git"],
       repoLink: "https://github.com/jonasedpi/vr-unity",
+      paperLink: "https://doi.org/10.5753/jis.2026.7411",
       icon: "🎮",
     },
   ];
@@ -146,6 +148,27 @@ const Projects: React.FC = () => {
                 >
                   💻 {t("projects.repository")}
                 </a>
+
+                {project.paperLink && (
+                  <a
+                    href={project.paperLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
+                      flex-1
+                      text-xs
+                      text-center
+                      border-2
+                      border-blue-300
+                      py-2
+                      hover:bg-blue-300
+                      hover:text-black
+                      transition
+                    "
+                  >
+                    📄 {t("projects.paper")}
+                  </a>
+                )}
 
               </div>
 

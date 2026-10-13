@@ -20,7 +20,7 @@ const Contact = () => {
       icon: "💼",
       title: t("ct_linkedin"),
       link: "https://www.linkedin.com/in/jonas-eduardo-schumann-pinheiro/",
-      label: "in/jonas-eduardo-schumann-pinheiro",
+      label: "Jonas Pinheiro",
     },
   ];
 
@@ -30,7 +30,7 @@ const Contact = () => {
         {t("ct_contact")}
       </h2>
 
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {contacts.map((contact) => (
           <a
             key={contact.title}
@@ -42,7 +42,7 @@ const Contact = () => {
               bg-zinc-800
               border-4
               border-blue-300
-              p-8
+              p-6
               shadow-[8px_8px_0px_#000]
               hover:-translate-y-2
               hover:shadow-[12px_12px_0px_#000]
