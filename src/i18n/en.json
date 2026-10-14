@@ -21,7 +21,15 @@
       "title": "Tekohá",
       "description": "Unity VR environment for Meta Quest that recreates the São Miguel Arcanjo Mission to teach history to children. Undergraduate research project at Unisinos, published in the Journal on Interactive Systems. My part: custom virtual hands replacing the controller model, lighting fixes, 3D model adjustments and merging team branches with Git."
     },
-    "paper": "Paper"
+    "paper": "Paper",
+    "voting": {
+      "title": "Dance Festival Voting",
+      "description": "Online voting system for the 2nd Folk and Popular Dance Festival. Visitors pick a group and choreography and confirm their vote, a countdown opens and closes voting, and an admin panel with login shows results per choreography."
+    },
+    "tickets": {
+      "title": "Festejos Tickets",
+      "description": "Ticket sales dashboard for the Festejos 2026 show. It records sales (half and full price) per seller, tracks the ticket limit with a progress bar, and lets you search, filter, edit and delete records."
+    }
   },
   "ser_services": "Services",
   "inProgress": "In progress",

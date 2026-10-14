@@ -14,15 +14,8 @@ type Project = {
 const Projects: React.FC = () => {
   const { t } = useTranslation();
 
+  // ✏️ Confira os links dos repositórios e adicione liveLink quando os sites estiverem no ar.
   const projects: Project[] = [
-    {
-      title: t("projects.portfolio.title"),
-      description: t("projects.portfolio.description"),
-      techStack: ["React", "TypeScript", "Tailwind CSS"],
-      liveLink: "https://jonasedpi.vercel.app",
-      repoLink: "https://github.com/jonasedpi/jonasedpi.github.io",
-      icon: "💻",
-    },
     {
       title: t("projects.vr_unity.title"),
       description: t("projects.vr_unity.description"),
@@ -30,6 +23,28 @@ const Projects: React.FC = () => {
       repoLink: "https://github.com/jonasedpi/vr-unity",
       paperLink: "https://doi.org/10.5753/jis.2026.7411",
       icon: "🎮",
+    },
+    {
+      title: t("projects.voting.title"),
+      description: t("projects.voting.description"),
+      techStack: ["React", "TypeScript", "Tailwind CSS", "Supabase"],
+      repoLink: "https://github.com/jonasedpi/festival-de-dancas-votacao",
+      icon: "🗳️",
+    },
+    {
+      title: t("projects.tickets.title"),
+      description: t("projects.tickets.description"),
+      techStack: ["React", "Supabase", "SQL", "Vite"],
+      repoLink: "https://github.com/jonasedpi/festejos-ingressos",
+      icon: "🎟️",
+    },
+    {
+      title: t("projects.portfolio.title"),
+      description: t("projects.portfolio.description"),
+      techStack: ["React", "TypeScript", "Tailwind CSS"],
+      liveLink: "https://jonasedpi.vercel.app",
+      repoLink: "https://github.com/jonasedpi/jonasedpi.github.io",
+      icon: "💻",
     },
   ];
 

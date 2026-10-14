@@ -20,7 +20,15 @@
       "title": "Tekohá",
       "description": "Ambiente de VR em Unity (Meta Quest) que recria a Missão de São Miguel Arcanjo para ensinar história a crianças. Projeto de iniciação científica na Unisinos, publicado no Journal on Interactive Systems. Minha parte: mãos virtuais personalizadas no lugar do modelo do controle, correção de problemas de iluminação, ajustes em modelos 3D e merge de branches da equipe com Git."
     },
-    "paper": "Artigo"
+    "paper": "Artigo",
+    "voting": {
+      "title": "Votação do Festival de Danças",
+      "description": "Sistema de votação online do 2º Festival de Danças Folclóricas e Populares. O público escolhe o grupo e a coreografia, com confirmação do voto, contagem regressiva que abre e encerra a votação e painel administrativo com login e resultados por coreografia."
+    },
+    "tickets": {
+      "title": "Festejos: Ingressos",
+      "description": "Painel de controle de vendas de ingressos do espetáculo Festejos 2026. Registra vendas (meia e inteira) por vendedor, acompanha o limite de ingressos com barra de progresso e permite buscar, filtrar, editar e excluir registros."
+    }
   },
   "ser_services": "Serviços",
   "inProgress": "Em desenvolvimento",

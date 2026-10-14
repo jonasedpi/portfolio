@@ -14,6 +14,8 @@ interface Skill {
 
 const PORTFOLIO = "projects.portfolio.title";
 const TEKOHA = "projects.vr_unity.title";
+const VOTING = "projects.voting.title";
+const TICKETS = "projects.tickets.title";
 
 // ✏️ Ajuste aqui os níveis e os projetos de cada habilidade.
 const skills: Skill[] = [
@@ -21,13 +23,14 @@ const skills: Skill[] = [
   { id: "csharp", name: "C#", icon: "C#", category: "games", level: 3, projects: [TEKOHA] },
   { id: "pixelart", name: "Pixel Art", icon: "PX", category: "games", level: 2, projects: [] },
 
-  { id: "react", name: "React", icon: "RE", category: "frontend", level: 3, projects: [PORTFOLIO] },
-  { id: "typescript", name: "TypeScript", icon: "TS", category: "frontend", level: 3, projects: [PORTFOLIO] },
-  { id: "tailwind", name: "Tailwind CSS", icon: "TW", category: "frontend", level: 3, projects: [PORTFOLIO] },
-  { id: "htmlcss", name: "HTML / CSS", icon: "</>", category: "frontend", level: 3, projects: [PORTFOLIO] },
+  { id: "react", name: "React", icon: "RE", category: "frontend", level: 3, projects: [VOTING, TICKETS, PORTFOLIO] },
+  { id: "typescript", name: "TypeScript", icon: "TS", category: "frontend", level: 3, projects: [VOTING, PORTFOLIO] },
+  { id: "tailwind", name: "Tailwind CSS", icon: "TW", category: "frontend", level: 3, projects: [VOTING, PORTFOLIO] },
+  { id: "htmlcss", name: "HTML / CSS", icon: "</>", category: "frontend", level: 3, projects: [TICKETS, PORTFOLIO] },
 
   { id: "node", name: "Node.js", icon: "ND", category: "backend", level: 2, projects: [] },
-  { id: "sql", name: "SQL", icon: "SQL", category: "backend", level: 2, projects: [] },
+  { id: "supabase", name: "Supabase", icon: "SB", category: "backend", level: 2, projects: [VOTING, TICKETS] },
+  { id: "sql", name: "SQL", icon: "SQL", category: "backend", level: 2, projects: [TICKETS] },
 
   { id: "git", name: "Git / GitHub", icon: "GIT", category: "tools", level: 3, projects: [TEKOHA, PORTFOLIO] },
 ];
